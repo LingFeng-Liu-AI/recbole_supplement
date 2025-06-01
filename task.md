@@ -13,7 +13,7 @@
 该部分已在recbole2.0（[https://recbole.io/cn/subpackage.html](https://recbole.io/cn/subpackage.html)）的子项目 RecBole-Debias（[https://github.com/JingsenZhang/RecBole-Debias](https://github.com/JingsenZhang/RecBole-Debias)） 中完成了很多baseline。
 但是其代码有bug，不能直接跑通。
 
-1. [] 跑通RecBole-Debias(可能需要对其中的bug进行修改)
+1. [ ] 跑通RecBole-Debias(可能需要对其中的bug进行修改)
     尤其是以下五个模型（本身已经实现，可能需要调整采样策略等，另外这些方法的backbone都是mf，我们需要添加使用LightGCN实现）
     **Selection Bias**:
     * [ ] **[MF-IPS](recbole_debias/model/debiased_recommender/mf_ips.py)** from Schnabel *et al.*: [Recommendations as Treatments: Debiasing Learning and Evaluation](http://proceedings.mlr.press/v48/schnabel16.pdf) (ICML 2016).
